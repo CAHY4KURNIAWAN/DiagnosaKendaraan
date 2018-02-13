@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backgroundvector"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.gamal.diagnosakendaraan.MenuUtama" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn4tak"
+            style="@style/MyButtonLeft"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/btn_4tak" />
+
+        <Button
+            android:id="@+id/btn2tak"
+            style="@style/MyButtonRight"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/btn_2tak" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnTentang"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/btn_tentang"
+        android:textSize="16sp" />
+
+</LinearLayout>

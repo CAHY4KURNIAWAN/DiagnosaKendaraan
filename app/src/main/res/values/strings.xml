@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DiagnosaKendaraan</string>
+    <string name="text_kendala">Kendala</string>
+    <string name="text_diagnosa">Diagnosa</string>
+    <string name="text_solusi">Solusi</string>
+    <string name="text_pertanyaan">Pertanyaan</string>
+    <string name="text_ya">Ya</string>
+    <string name="text_tidak">Tidak</string>
+    <string name="text_tanggal">Tanggal</string>
+    <string name="text_waktu">Waktu</string>
+</resources>
